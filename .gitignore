@@ -1,0 +1,7 @@
+# File not have ext
+*
+!/**/
+!*.*
+
+# Files .c
+*.c
