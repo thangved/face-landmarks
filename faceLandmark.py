@@ -21,7 +21,6 @@ while True:
             y = face_landmarks.part(n).y
             cv2.circle(frame, (x, y), 1, (0, 255, 255), 1)
 
-
     cv2.imshow("Face Landmarks", frame)
 
     key = cv2.waitKey(1)
